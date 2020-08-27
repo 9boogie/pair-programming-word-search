@@ -1,6 +1,5 @@
 const transpose = function(matrix) {
     let newMatrix = [];
-
     for (let i = 0; i < matrix[0].length; i++){
         newMatrix[i] = [];
         for (let j = 0; j < matrix.length; j++) { 
